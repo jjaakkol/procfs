@@ -244,6 +244,8 @@ type V4Ops struct {
 	SecInfo      uint64
 	SetAttr      uint64
 	Verify       uint64
+	SetClientId  uint64
+	SetClientIdConfirm uint64
 	Write        uint64
 	RelLockOwner uint64
 }
