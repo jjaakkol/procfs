@@ -308,9 +308,11 @@ func parseV4Ops(v []uint64) (V4Ops, error) {
 		SaveFH:       v[33],
 		SecInfo:      v[34],
 		SetAttr:      v[35],
-		Verify:       v[36],
-		Write:        v[37],
-		RelLockOwner: v[38],
+		SetClientId = v[36],
+		SetClientIdConfirm = v[37],
+		Verify:       v[38],
+		Write:        v[39],
+		RelLockOwner: v[40],
 	}
 
 	return stats, nil
